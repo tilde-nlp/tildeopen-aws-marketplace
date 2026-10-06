@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a translator."
+    },
+    {
+      "role": "user",
+      "content": "I like pies.\n\nTranslate the given text from English to Latvian."
+    }
+  ],
+  "max_tokens": 256,
+  "temperature": 0.0
+}

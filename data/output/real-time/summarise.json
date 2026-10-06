@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-sample006",
+  "object": "chat.completion",
+  "created": 1759750806,
+  "model": "tildeopen-30b-64k",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Large language models are neural networks trained on large text corpora for generating, summarising, translating and analysing text, and they underlie most modern chatbots. They are usually transformer-based; GPT models are pre-trained to predict the next word and then fine-tuned to follow instructions. Biased or inaccurate training data reduces the reliability of their output."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 64,
+    "total_tokens": 144
+  }
+}

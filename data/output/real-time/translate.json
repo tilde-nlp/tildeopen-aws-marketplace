@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-sample001",
+  "object": "chat.completion",
+  "created": 1759750801,
+  "model": "tildeopen-30b-64k",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Man patīk pīrāgi."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 6,
+    "total_tokens": 36
+  }
+}

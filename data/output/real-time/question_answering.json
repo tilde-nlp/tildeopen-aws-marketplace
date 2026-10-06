@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-sample005",
+  "object": "chat.completion",
+  "created": 1759750805,
+  "model": "tildeopen-30b-64k",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Yes, you like pies."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 70,
+    "completion_tokens": 6,
+    "total_tokens": 76
+  }
+}
